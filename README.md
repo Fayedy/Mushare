@@ -39,7 +39,7 @@ MPMoviePlayerController用来播放歌曲。并在点击后相应图标会发生
 
 **4. 搜索页面**
 
-![此处应有图片]()
+![此处应有图片](https://github.com/Fayedy/Mushare/blob/master/image/Search.png)
 
 在发现音乐的左上角点击搜索按钮可以跳转至搜索页面。  
 搜索页面由Search Bar和Table View组成，在搜索框中输入歌曲名称后，在列表显示搜索到的歌曲信息，点击之后跳转到播放页面播放。用UISearchBarDelegate来代理搜索框的行为。
@@ -70,20 +70,20 @@ MPMoviePlayerController用来播放歌曲。并在点击后相应图标会发生
 
 **1. 动态展示**
 
-![此处应有图片]()  
+![此处应有图片](https://github.com/Fayedy/Mushare/blob/master/image/Moment.png)  
 
 可以显示添加的新动态。
 
 **2. 添加动态**
 
-![此处应有图片]()
+![此处应有图片](https://github.com/Fayedy/Mushare/blob/master/image/newMoment.png)
 
 点击左上角的添加按钮，转到新建动态页面，可以添加文字和图片描述。
 
 
 ###账号
 
-![此处应有图片]()
+![此处应有图片](https://github.com/Fayedy/Mushare/blob/master/image/account.png)
 
 **1. 用户登录**
 
@@ -111,6 +111,10 @@ FMDB封装了SQLite，可以使用SQL命令对数据库进行操作。首先建�
 * 最近播放列表没有按时间排序，仅仅添加进歌单
 * 登录本质上并没有实现，页面切换也比较简陋
 * 由于歌曲源的问题，会偶尔出现歌曲会无法播放或者无法自动下一首，而本次并没有对相关部分进行检查和修改。
+
+##代码行数
+
+4005
 
    
 
