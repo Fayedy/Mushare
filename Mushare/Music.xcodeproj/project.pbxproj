@@ -34,7 +34,6 @@
 		1240B2791FF597A6001322AF /* LTMorphingLabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1240B2461FF59783001322AF /* LTMorphingLabel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1240B27E1FF685C6001322AF /* MyAlbumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1240B27D1FF685C5001322AF /* MyAlbumTableViewController.swift */; };
 		1240B2801FF685E3001322AF /* MyAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1240B27F1FF685E3001322AF /* MyAlbumTableViewCell.swift */; };
-		125051021FF6E95500E1B3D0 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125050DD1FF6E95400E1B3D0 /* AccountViewController.swift */; };
 		126DBE481FF6D23B00076216 /* NewMomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DBE471FF6D23B00076216 /* NewMomentViewController.swift */; };
 		12AC14761FDDBC73006F0F20 /* MomentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC14751FDDBC73006F0F20 /* MomentTableViewCell.swift */; };
 		12AC14781FDDBD06006F0F20 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC14771FDDBD06006F0F20 /* Moment.swift */; };
@@ -55,7 +54,8 @@
 		12EA1FA51FDDA6D300CDA47C /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA1FA41FDDA6D300CDA47C /* AccountTableViewController.swift */; };
 		12EA1FA71FDDA74700CDA47C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA1FA61FDDA74700CDA47C /* Account.swift */; };
 		12EA1FA91FDDB01200CDA47C /* MomentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA1FA81FDDB01200CDA47C /* MomentTableViewController.swift */; };
-		A1FE869B34AA3A3B03F72064 /* Pods_Music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B418DF5DECCEA55A671677A /* Pods_Music.framework */; };
+		678F523D2020CD9A0088F99C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678F523C2020CD9A0088F99C /* AccountViewController.swift */; };
+		678F523E2020CF040088F99C /* Music-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 1240B1C71FF43647001322AF /* Music-Bridging-Header.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -425,7 +425,6 @@
 		1240B24D1FF5978C001322AF /* Kingfisher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kingfisher.xcodeproj; path = ../../ios/include/Kingfisher/Kingfisher.xcodeproj; sourceTree = "<group>"; };
 		1240B27D1FF685C5001322AF /* MyAlbumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlbumTableViewController.swift; sourceTree = "<group>"; };
 		1240B27F1FF685E3001322AF /* MyAlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlbumTableViewCell.swift; sourceTree = "<group>"; };
-		125050DD1FF6E95400E1B3D0 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountViewController.swift; path = ../../../../ios/include/Kingfisher/AccountViewController.swift; sourceTree = "<group>"; };
 		126DBE471FF6D23B00076216 /* NewMomentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMomentViewController.swift; sourceTree = "<group>"; };
 		12AC14751FDDBC73006F0F20 /* MomentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentTableViewCell.swift; sourceTree = "<group>"; };
 		12AC14771FDDBD06006F0F20 /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
@@ -449,7 +448,7 @@
 		12EA1FA61FDDA74700CDA47C /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		12EA1FA81FDDB01200CDA47C /* MomentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentTableViewController.swift; sourceTree = "<group>"; };
 		61D8B2022A329EC40C65299A /* Pods-Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.release.xcconfig"; path = "Pods/Target Support Files/Pods-Music/Pods-Music.release.xcconfig"; sourceTree = "<group>"; };
-		8B418DF5DECCEA55A671677A /* Pods_Music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678F523C2020CD9A0088F99C /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		E339096335FE8ED3FDF627F1 /* Pods-Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Music/Pods-Music.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -461,7 +460,6 @@
 				1240B1471FF42CA2001322AF /* SwiftyJSON.framework in Frameworks */,
 				1240B2781FF597A6001322AF /* LTMorphingLabel.framework in Frameworks */,
 				1240B14C1FF42CA6001322AF /* Alamofire.framework in Frameworks */,
-				A1FE869B34AA3A3B03F72064 /* Pods_Music.framework in Frameworks */,
 				1240B1A71FF432F1001322AF /* FMDB.framework in Frameworks */,
 				1240B2741FF5979A001322AF /* Kingfisher.framework in Frameworks */,
 				1240B2371FF59726001322AF /* Async.framework in Frameworks */,
@@ -474,7 +472,6 @@
 		025C8ECECA0597107958756E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B418DF5DECCEA55A671677A /* Pods_Music.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -496,7 +493,7 @@
 		1240B0ED1FF42B5F001322AF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				125050DD1FF6E95400E1B3D0 /* AccountViewController.swift */,
+				678F523C2020CD9A0088F99C /* AccountViewController.swift */,
 				126DBE471FF6D23B00076216 /* NewMomentViewController.swift */,
 				12AC14791FDDCA73006F0F20 /* CLLoopView.swift */,
 				12AC14751FDDBC73006F0F20 /* MomentTableViewCell.swift */,
@@ -1116,14 +1113,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678F523E2020CF040088F99C /* Music-Bridging-Header.h in Sources */,
 				12EA1F991FDD572B00CDA47C /* ViewController.swift in Sources */,
 				1240B27E1FF685C6001322AF /* MyAlbumTableViewController.swift in Sources */,
-				125051021FF6E95500E1B3D0 /* AccountViewController.swift in Sources */,
 				126DBE481FF6D23B00076216 /* NewMomentViewController.swift in Sources */,
 				12AC14821FDDCE1D006F0F20 /* AlbumTableViewController.swift in Sources */,
 				12EA1FA11FDD7D0700CDA47C /* MyMusic.swift in Sources */,
 				12AC147C1FDDCA73006F0F20 /* FindMusicViewController.swift in Sources */,
 				1240B0F71FF42BDA001322AF /* Const.swift in Sources */,
+				678F523D2020CD9A0088F99C /* AccountViewController.swift in Sources */,
 				1240B2031FF56FC6001322AF /* MusicListTableViewController.swift in Sources */,
 				1240B2801FF685E3001322AF /* MyAlbumTableViewCell.swift in Sources */,
 				1240B0FB1FF42BFF001322AF /* Utils.swift in Sources */,

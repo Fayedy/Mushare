@@ -5,6 +5,34 @@
 
 Mushare is a music sharing app using swift.
 
+## 环境配置
+### 库文件配置
+该音乐播放器使用了
+
+1. **网络通信Alamofire**: <https://github.com/Alamofire/Alamofire>
+
+2. **SwiftyJSON**: <https://github.com/SwiftyJSON/SwiftyJSON> 
+
+3. **FMDB数据库**: <https://github.com/ccgus/fmdb>
+
+4. **异步Async**: <https://github.com/duemunk/Async>
+
+5. **图片缓存Kingfisher**: <https://github.com/onevcat/Kingfisher>
+
+6. **LTMorphingLabel**: <https://github.com/lexrus/LTMorphingLabel>
+
+* git clone 下载上述文件夹
+* 将工程文件xcodeproj文件拖入工程，并在target中添加所需要的包
+
+### Bridging-Header.h配置
+由于该音乐播放器使用了OC与swift混合编程，所以需要建立Bridging-Header.h，由于代码未自动生成，所以需手动添加，需要对路径进行修改。
+
+Target -> Build Settings -> Swift Compiler-General，把.h的**绝对路径**输入到Objective-C Bridging Header里面。
+
+Target -> Build Phases -> Compile Sources，列表里添加Music-Bridging-Header.h文件。
+
+PS: 推荐使用 **iPhone 8** 模拟器。
+
 ## Mushare基本功能
 Mushare可以实现歌单推荐，音乐播放、下载和收藏，歌词显示，动态分享，用户登录。
 
