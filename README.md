@@ -21,8 +21,7 @@ Mushare is a music sharing app using swift.
 
 6. **LTMorphingLabel**: <https://github.com/lexrus/LTMorphingLabel>
 
-* git clone 下载上述文件夹
-* 将工程文件xcodeproj文件拖入工程，并在target中添加所需要的包
+* 将文件夹内的上述工程文件xcodeproj文件拖入工程，并在target中添加所需要的包
 
 ### Bridging-Header.h配置
 由于该音乐播放器使用了OC与swift混合编程，所以需要建立Bridging-Header.h，由于代码未自动生成，所以需手动添加，需要对路径进行修改。
